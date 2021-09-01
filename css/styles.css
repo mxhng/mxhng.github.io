@@ -10118,11 +10118,36 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 70vh;
   }
 }
 @media (min-width: 992px) {
   section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  section.resume-subsection {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+section.resume-subsection .resume-subsection-content {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  section.resume-subsection {
+    min-height: 0vh;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-subsection {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;

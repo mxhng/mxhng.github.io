@@ -1,6 +1,6 @@
-const favicon_images = ["fav/ezgif-7-1b62dc0dd148-jpg/ezgif-frame-001.jpg"];
+const favicon_images = ["fav/ezgif-7-1b62dc0dd148-jpg/ezgif-frame-003.jpg"];
     
-for (let i = 2; i < 11; i++)
+for (let i = 4; i < 11; i++)
     {
         favicon_images.push("fav/ezgif-7-1b62dc0dd148-jpg/ezgif-frame-00"+i+".jpg");
     }    
